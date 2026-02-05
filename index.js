@@ -5,7 +5,7 @@ let randomPassword = document.querySelector(".randomPass")
 
 function randomNumber() {
    /* let rdn = Math.floor(Math.random() * 15) + 1 */
-   for (let i = 0; i < characters.length; i += 15) {
+   for (let i = 0; i < characters.length; i++) {
     let rdn = characters[Math.floor(Math.random() * 90) + 1]
     console.log(rdn)
    }
