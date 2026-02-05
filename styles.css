@@ -1,0 +1,75 @@
+body {
+    margin: 100px 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: normal;
+    background: whitesmoke;
+    font-family: "Source Code Pro", monospace;
+}
+
+#card {
+    background: #003049;
+    width: 400px;
+    height: 300px;
+    padding: 80px 50px 80px 50px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.greenie {
+    color: rgb(17, 177, 54);
+    display: flex;
+}
+
+
+#pass-btn {
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgb(17, 177, 54);
+    color: white;
+    font-size: medium;
+}
+#pass-btn:hover {
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgb(15, 155, 48);
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#passwords {
+    margin: 30px 0px;
+    padding: 30px 0px 30px 0px;
+    border-top: 2px solid rgba(198, 198, 198, 0.185);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#desc-txt {
+    margin: 0px 0px 45px 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+#main-txt {
+    margin: 0px;
+    font-weight: 800;
+}
+
+.randomPass {
+    margin: 0px 0px;
+    background: #15537491;
+    padding: 5px 33px 10px 33px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 255, 110);
+}
